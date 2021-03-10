@@ -18,5 +18,10 @@
       "google/apiclient-services": [
         "Directory"
       ]
+    },
+    "autoload": {
+      "psr-4": {
+        "JuniorFontenele\\Google\\GSuite\\": "src/"
+      }
     }
 }

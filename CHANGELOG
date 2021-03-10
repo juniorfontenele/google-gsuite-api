@@ -1,0 +1,3 @@
+v1.0.1
+------
+- MAJOR FIX: PSR-4 autoload is missing
