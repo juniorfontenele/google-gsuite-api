@@ -9,8 +9,6 @@ use Google_Service_Directory_User;
 use Google_Service_Directory_UserName;
 use JuniorFontenele\Google\GSuite\Exceptions\GoogleApiException;
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 class GoogleDirectory {
 
   protected $client;

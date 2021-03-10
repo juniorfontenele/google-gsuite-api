@@ -1,3 +1,7 @@
+v1.0.2
+------
+- MAJOR FIX: Error on require autoload file
+
 v1.0.1
 ------
 - MAJOR FIX: PSR-4 autoload is missing
