@@ -1,0 +1,22 @@
+{
+    "name": "juniorfontenele/google-gsuite-api",
+    "description": "PHP Wrapper to Google GSuite API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junior Fontenele",
+            "email": "lcbfjr@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.7"
+    },
+    "scripts": {
+      "post-update-cmd": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+      "google/apiclient-services": [
+        "Directory"
+      ]
+    }
+}
